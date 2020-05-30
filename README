@@ -1,0 +1,46 @@
+Name: Abilash Bodapati
+Date: 05/28/2020
+
+The Driver file that contains the main method is Triangle.java.
+
+This is a Program that takes an input of 2 arguments.
+The output of the program will be pretty printed into a triangle shape
+with the min value as the top of the triangle anf the max at the bottom.
+
+To compile the file:
+    "javac Triangle.java"
+
+To run the program:
+    "java Triangle (num1) (num2)"
+
+For example:
+    Example 1:
+        input: java Triangle 1 4
+        output:
+                        1
+                    1   2   1
+                1   2   3   2   1
+            1   2   3   4   3   2   1
+
+    Example 2:
+        input: java Triangle 5 10
+        output:
+                                5
+                            5   6   5
+                        5   6   7   6   5
+                    5   6   7   8   7   6   5
+                5   6   7   8   9   8   7   6   5
+            5   6   7   8   9   10  9   8   7   6   5
+
+
+Further Questions to be asked would be:
+    What should I do if the input is 0 whether it be as a num1 or num2?
+        Answer: There is a possibility of 0 values for num1 and num2.
+    
+    I am assuming the numbers passed must satisfy [num1 < num2], 
+    if not how should I handle scenarios with [num1 = num2] or [num1 > num2]
+        Answer: If they are equal to each other then print out only one row.
+                If num1 > num2 then account for which on is min and max and assign values
+    
+    Are there negative numbers?
+        Answer: No, the domain is strictly [0, infinite)
